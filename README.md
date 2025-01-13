@@ -1,4 +1,4 @@
-# smartcoder-intellij-plugin
+# intellij-plugin-template
 
 ## ToDo list
 
