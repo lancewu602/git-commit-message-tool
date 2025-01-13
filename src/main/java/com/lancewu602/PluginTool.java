@@ -15,7 +15,6 @@ public class PluginTool {
 
     public static final PluginId ID = PluginId.getId("com.xiaojukeji.ep.smartcoder-intellij");
 
-
     public static @NotNull String getVersion() {
         IdeaPluginDescriptor plugin = PluginManagerCore.getPlugin(ID);
         return plugin == null ? "unknown" : plugin.getVersion();
