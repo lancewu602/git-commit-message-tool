@@ -6,7 +6,7 @@ import org.jetbrains.annotations.PropertyKey;
 
 /**
  * @author WuQinglong
- * @since 2023/10/31 9:53 AM
+ * @date 2025/1/13 17:44
  */
 public class PluginBundle extends DynamicBundle {
 

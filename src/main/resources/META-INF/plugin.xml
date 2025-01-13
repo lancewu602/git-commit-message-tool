@@ -3,10 +3,9 @@
 
     <id>com.lancewu602.git-commit-message-helper</id>
     <name>Git Commit Message Helper</name>
-    <vendor>LanceWu</vendor>
+    <vendor>lancewu602@qq.com</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
-    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.vcs</depends>
 
     <!-- Extension points defined by the plugin. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
@@ -14,6 +13,13 @@
     </extensions>
 
     <actions>
+
+        <action id="Commit.Button" class="com.lancewu602.CreateCommitAction"
+                text="Create Commit Message"
+                description="Create commit message"
+                icon="/icons/edit.png">
+            <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
+        </action>
 
     </actions>
 
