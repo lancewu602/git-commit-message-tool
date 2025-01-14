@@ -3,7 +3,7 @@
 
     <id>com.lancewu602.git-helper</id>
     <name>Git Helper</name>
-    <vendor>lancewu602@gmail.com</vendor>
+    <vendor email="lancewu602@gmail.com">Lance Wu</vendor>
 
     <depends>com.intellij.modules.vcs</depends>
 
