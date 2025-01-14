@@ -1,9 +1,9 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin require-restart="true">
 
-    <id>com.lancewu602.git-commit-message-helper</id>
-    <name>Git Commit Message Helper</name>
-    <vendor>lancewu602@qq.com</vendor>
+    <id>com.lancewu602.git-commit-message-tool</id>
+    <name>Git Commit Message Tool</name>
+    <vendor>lancewu602@gmail.com</vendor>
 
     <depends>com.intellij.modules.vcs</depends>
 
@@ -18,7 +18,7 @@
                 text="Create Commit Message"
                 description="Create commit message"
                 icon="/icons/edit.svg">
-            <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
+            <add-to-group group-id="Vcs.MessageActionGroup" anchor="last"/>
         </action>
 
     </actions>

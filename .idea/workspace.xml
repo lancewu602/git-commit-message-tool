@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60367c7d-0767-4466-91d1-0cc8d5ba26d5" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/edit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/ChangeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/ChangeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CreateCommitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CreateCommitAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/PluginBundle.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/edit_dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/edit.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="git-commit-message-helper" type="f1a62948:ProjectNode" />
+                <item name="git-commit-message-tool" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -199,6 +198,7 @@
     "Gradle.Run Verifications.executor": "Run",
     "Gradle.git-commit-message-helper [:com.lancewu602.Hello.main()].executor": "Run",
     "Gradle.git-commit-message-helper [setupDependencies].executor": "Run",
+    "Gradle.git-commit-message-tool [setupDependencies].executor": "Run",
     "Gradle.intellij-plugin-template [setupDependencies].executor": "Run",
     "Gradle.smartcoder-intellij [agent-clean].executor": "Run",
     "Gradle.smartcoder-intellij [agent-download].executor": "Run",
@@ -331,7 +331,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "liberica-11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/didi/IdeaProjects/git-commit-message-helper/src/main/java/com/lancewu602",
+    "last_opened_file_path": "/Users/didi/IdeaProjects/git-commit-message-tool",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -354,8 +354,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/resources/icons" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/agent" />
       <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$" />
@@ -397,72 +397,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smartcoder-intellij [sc-agent-clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="sc-agent-clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="smartcoder-intellij [sc-agent-download]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="sc-agent-download" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="smartcoder-intellij [sc-plugin-package]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="sc-plugin-package" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="CompletionSplitterTest.splitNextWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="smartcoder-intellij.test" />
       <option name="PACKAGE_NAME" value="com.xiaojukeji.ep.completions" />
@@ -477,18 +411,12 @@
       <item itemvalue="Application.Hello" />
       <item itemvalue="Gradle.Run Plugin" />
       <item itemvalue="Gradle.Run Verifications" />
-      <item itemvalue="Gradle.smartcoder-intellij [sc-agent-clean]" />
-      <item itemvalue="Gradle.smartcoder-intellij [sc-agent-download]" />
-      <item itemvalue="Gradle.smartcoder-intellij [sc-plugin-package]" />
       <item itemvalue="JUnit.CompletionSplitterTest.splitNextWord" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hello" />
         <item itemvalue="JUnit.CompletionSplitterTest.splitNextWord" />
-        <item itemvalue="Gradle.smartcoder-intellij [sc-plugin-package]" />
-        <item itemvalue="Gradle.smartcoder-intellij [sc-agent-download]" />
-        <item itemvalue="Gradle.smartcoder-intellij [sc-agent-clean]" />
       </list>
     </recent_temporary>
   </component>
