@@ -2,7 +2,6 @@ package com.lancewu602;
 
 import com.intellij.ui.CollectionComboBoxModel;
 
-import javax.annotation.Nullable;
 import javax.swing.*;
 import java.util.Arrays;
 import java.util.stream.Collectors;
@@ -17,12 +16,12 @@ public class CommitPanel {
     private JComboBox<String> typeOfChangeComboBox;
     private JTextField scopeOfThisChangeText;
     private JTextField shortDescriptionText;
-    private JTextArea longDescriptionText;
+    private JTextArea longDescriptionTextArea;
     private JTextArea breakChangeTextArea;
     private JTextField closedIssuesText;
     private JCheckBox skipCiCheckBox;
 
-    public CommitPanel(@Nullable CommitMessage commitMessage) {
+    public CommitPanel(CommitMessage commitMessage) {
         typeOfChangeComboBox.setModel(new CollectionComboBoxModel<>(
             Arrays.stream(ChangeType.values())
                 .map(ChangeType::toString)
@@ -43,7 +42,7 @@ public class CommitPanel {
             getSelectedChangeType(),
             scopeOfThisChangeText.getText().trim(),
             shortDescriptionText.getText().trim(),
-            longDescriptionText.getText().trim(),
+            longDescriptionTextArea.getText().trim(),
             breakChangeTextArea.getText().trim(),
             closedIssuesText.getText().trim(),
             true,
@@ -62,7 +61,7 @@ public class CommitPanel {
         }
         scopeOfThisChangeText.setText(commitMessage.getChangeScope());
         shortDescriptionText.setText(commitMessage.getShortDescription());
-        longDescriptionText.setText(commitMessage.getLongDescription());
+        longDescriptionTextArea.setText(commitMessage.getLongDescription());
         breakChangeTextArea.setText(commitMessage.getBreakingChanges());
         closedIssuesText.setText(commitMessage.getClosedIssues());
         skipCiCheckBox.setSelected(commitMessage.isSkipCI());
