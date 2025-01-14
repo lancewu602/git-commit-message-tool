@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
  */
 public class CommitPanel {
     private JPanel mainPanel;
+
     private JComboBox<String> typeOfChangeComboBox;
     private JTextField scopeOfThisChangeText;
     private JTextField shortDescriptionText;
@@ -37,7 +38,7 @@ public class CommitPanel {
         return mainPanel;
     }
 
-    CommitMessage getCommitMessage() {
+    public CommitMessage getCommitMessage() {
         return new CommitMessage(
             getSelectedChangeType(),
             scopeOfThisChangeText.getText().trim(),

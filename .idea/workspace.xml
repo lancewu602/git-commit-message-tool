@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60367c7d-0767-4466-91d1-0cc8d5ba26d5" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/ChangeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/ChangeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CommitPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/CreateCommitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lancewu602/CreateCommitAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lancewu602/PluginBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon_dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/edit.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation>
+            <after_sync>
+              <task name="setupDependencies" />
+            </after_sync>
+          </activation>
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="git-commit-message-helper" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Action" />
+        <option value="Kotlin Data Class" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="release241+" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lancewu602&quot;
+  }
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="oe build" />
+        <option name="rewordedMessage" value="oe build" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="a666e53dbe6a90ef2b173855dba00efd5c0ce72e" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1704856687" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/wql-saved" />
+                    <option name="lastUsedInstant" value="1704856677" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:lancewu602/intellij-plugin-template.git&quot;,
+    &quot;accountId&quot;: &quot;335c1ce9-271b-4034-bf95-946f6e64e9a2&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xiaojukeji/ep/editor/SmartEditorManager.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/xiaojukeji/ep/widget/SmartWidget.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/messages/smart.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JvmLoggingSettingsStorage">
+    <option name="loggerId" value="Slf4j" />
+  </component>
+  <component name="KotlinScriptingSettings">
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinInitScript">
+      <order>0</order>
+      <autoReloadConfigurations>true</autoReloadConfigurations>
+    </scriptDefinition>
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinSettingsScript">
+      <order>1</order>
+      <autoReloadConfigurations>true</autoReloadConfigurations>
+    </scriptDefinition>
+    <scriptDefinition className="org.jetbrains.kotlin.scripting.resolve.KotlinScriptDefinitionFromAnnotatedTemplate" definitionName="KotlinBuildScript">
+      <order>2</order>
+      <autoReloadConfigurations>true</autoReloadConfigurations>
+    </scriptDefinition>
+    <scriptDefinition className="org.jetbrains.kotlin.mainKts.MainKtsScript" definitionName="MainKtsScript">
+      <order>3</order>
+    </scriptDefinition>
+    <scriptDefinition className="kotlin.script.templates.standard.ScriptTemplateWithBindings" definitionName="Script definition for extension scripts and IDE console">
+      <order>4</order>
+    </scriptDefinition>
+    <scriptDefinition className="org.jetbrains.kotlin.idea.core.script.StandardIdeScriptDefinition" definitionName="Kotlin Script">
+      <order>5</order>
+    </scriptDefinition>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WjyKgVQwZpSk1IPKLJII5rS1NV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.AgentMain.executor": "Run",
+    "Application.CompletionSplitter.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Demp (1).executor": "Run",
+    "Application.Demp (2).executor": "Run",
+    "Application.Demp.executor": "Run",
+    "Application.DempZip.executor": "Run",
+    "Application.EditorPSIManager.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.ShowTipsDialog.executor": "Run",
+    "Application.StdioInteractionExample.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build smartcoder-intellij.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.Run Plugin.executor": "Run",
+    "Gradle.Run Verifications.executor": "Run",
+    "Gradle.git-commit-message-helper [:com.lancewu602.Hello.main()].executor": "Run",
+    "Gradle.git-commit-message-helper [setupDependencies].executor": "Run",
+    "Gradle.intellij-plugin-template [setupDependencies].executor": "Run",
+    "Gradle.smartcoder-intellij [agent-clean].executor": "Run",
+    "Gradle.smartcoder-intellij [agent-download].executor": "Run",
+    "Gradle.smartcoder-intellij [agentUnpackage].executor": "Run",
+    "Gradle.smartcoder-intellij [assemble].executor": "Run",
+    "Gradle.smartcoder-intellij [buildPlugin].executor": "Run",
+    "Gradle.smartcoder-intellij [build].executor": "Run",
+    "Gradle.smartcoder-intellij [cleanAgent].executor": "Run",
+    "Gradle.smartcoder-intellij [clean].executor": "Run",
+    "Gradle.smartcoder-intellij [deployLatest].executor": "Run",
+    "Gradle.smartcoder-intellij [deployRelease].executor": "Run",
+    "Gradle.smartcoder-intellij [downloadAgent].executor": "Run",
+    "Gradle.smartcoder-intellij [downloadAndUnzip].executor": "Run",
+    "Gradle.smartcoder-intellij [downloadZip].executor": "Run",
+    "Gradle.smartcoder-intellij [execAbc].executor": "Run",
+    "Gradle.smartcoder-intellij [packagePlugin].executor": "Run",
+    "Gradle.smartcoder-intellij [prepareKotlinBuildScriptModel].executor": "Run",
+    "Gradle.smartcoder-intellij [sc-agent-clean].executor": "Run",
+    "Gradle.smartcoder-intellij [sc-agent-download].executor": "Run",
+    "Gradle.smartcoder-intellij [sc-plugin-package].executor": "Run",
+    "Gradle.smartcoder-intellij [setupDependencies].executor": "Run",
+    "Gradle.smartcoder-intellij [test].executor": "Run",
+    "Gradle.smartcoder-intellij [uploadPlugin].executor": "Run",
+    "Gradle.smartcoder-intellij [verifyPlugin].executor": "Run",
+    "JUnit.AgentProcessServiceTest.demoAgent (1).executor": "Run",
+    "JUnit.AgentProcessServiceTest.demoAgent.executor": "Run",
+    "JUnit.AgentProcessServiceTest.executor": "Run",
+    "JUnit.AgentProcessServiceTest.test (1).executor": "Run",
+    "JUnit.AgentProcessServiceTest.test (2).executor": "Run",
+    "JUnit.AgentProcessServiceTest.test.executor": "Run",
+    "JUnit.AgentServiceTest.demoAgent (1).executor": "Run",
+    "JUnit.AgentServiceTest.demoAgent.executor": "Run",
+    "JUnit.CancellableAlarmTest.cancelAllRequests.executor": "Run",
+    "JUnit.CodeSnippetServiceTest.getWindowData.executor": "Run",
+    "JUnit.CodeSnippetServiceTest.splitWord.executor": "Run",
+    "JUnit.CodeSnippetServiceTest.textSplitWorld.executor": "Run",
+    "JUnit.CompletionCacheTest.add.executor": "Run",
+    "JUnit.CompletionCacheTest.executor": "Run",
+    "JUnit.CompletionCacheTest.get.executor": "Run",
+    "JUnit.CompletionCacheTest.getLastAndRemoveCommonPrefix.executor": "Run",
+    "JUnit.CompletionCacheTest.getLastAndRemoveCommonPrefixCase1.executor": "Run",
+    "JUnit.CompletionCacheTest.getLastAndRemoveCommonPrefixCase2.executor": "Run",
+    "JUnit.CompletionCacheTest.setAccepted.executor": "Run",
+    "JUnit.CompletionCacheTest.tryUseL1CacheCase2.executor": "Run",
+    "JUnit.CompletionCacheTest.tryUseL1CacheCase3.executor": "Run",
+    "JUnit.CompletionCacheTest.tryUseL1CacheCase4.executor": "Run",
+    "JUnit.CompletionSplitterTest.splitNextWord.executor": "Run",
+    "JUnit.CompletionUtilTest.adjustWhitespace.executor": "Run",
+    "JUnit.CompletionUtilTest.createSmartInlays.executor": "Run",
+    "JUnit.CompletionUtilTest.dropOverlappingTrailingLines.executor": "Run",
+    "JUnit.CompletionUtilTest.executor": "Run",
+    "JUnit.CompletionUtilTest.newlinePattern.executor": "Run",
+    "JUnit.CompletionUtilTest.stringTest.executor": "Run",
+    "JUnit.DemoTest.demoTest.executor": "Run",
+    "JUnit.DemoTest.fileTypeTest.executor": "Run",
+    "JUnit.DemoTest.languageTest.executor": "Run",
+    "JUnit.DemoTest.sysInfoTest.executor": "Run",
+    "JUnit.DemoTest.test.executor": "Run",
+    "JUnit.DemoTest.testCompletion.executor": "Run",
+    "JUnit.DiffTest.test.executor": "Run",
+    "JUnit.EditorRequestTest.create.executor": "Run",
+    "JUnit.EditorRequestTest.createCase2.executor": "Run",
+    "JUnit.EditorRequestTest.executor": "Run",
+    "JUnit.FileAccessManagerTest.putAndGet.executor": "Run",
+    "JUnit.GeneratePromptHandlerTest.handlePrefix.executor": "Run",
+    "JUnit.RequestIdTest.currentRequestId.executor": "Run",
+    "JUnit.RequestIdTest.executor": "Run",
+    "JUnit.SmartBundleTest.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyAllCompletion.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyAllCompletionCase1.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyAllCompletionCase2.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyAllCompletionCase3.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyAllCompletionCase4.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyLineCompletionCase1.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyLineCompletionCase2.executor": "Run",
+    "JUnit.SmartEditorManagerTest.applyLineCompletionCase3.executor": "Run",
+    "JUnit.SmartEditorManagerTest.createDoducment.executor": "Run",
+    "JUnit.SmartEditorManagerTest.demoTest.executor": "Run",
+    "JUnit.SmartEditorManagerTest.executor": "Run",
+    "JUnit.SmartEditorManagerTest.insertInlay.executor": "Run",
+    "JUnit.SmartEditorManagerTest.testSplitLastLIne.executor": "Run",
+    "JUnit.SmartEditorUtilTest.executor": "Run",
+    "JUnit.SmartEditorUtilTest.isValidMiddleOfTheLinePosition.executor": "Run",
+    "JUnit.SmartStringUtilTest.executor": "Debug",
+    "JUnit.SmartStringUtilTest.findOverlappingLines.executor": "Run",
+    "JUnit.SmartStringUtilTest.getNextLines.executor": "Run",
+    "JUnit.SmartStringUtilTest.hasLetterOrDigit.executor": "Run",
+    "JUnit.SmartStringUtilTest.hashTest.executor": "Run",
+    "JUnit.SmartStringUtilTest.lastIndexOf.executor": "Run",
+    "JUnit.SmartStringUtilTest.leadingWhitespace.executor": "Run",
+    "JUnit.SmartStringUtilTest.leadingWhitespaceLength.executor": "Run",
+    "JUnit.SmartStringUtilTest.linesMatch.executor": "Run",
+    "JUnit.SmartStringUtilTest.splitLines.executor": "Run",
+    "JUnit.SmartStringUtilTest.subLineFromLast.executor": "Run",
+    "JUnit.SmartStringUtilTest.trailingInvisibleCharLength.executor": "Run",
+    "JUnit.SmartStringUtilTest.trailingWhitespace.executor": "Run",
+    "JUnit.SmartStringUtilTest.trimEndSpaceOrTab.executor": "Run",
+    "JUnit.SmartStringUtilTest.trimEndoftext.executor": "Run",
+    "JUnit.SmartStringUtilTest.trimStartSpaceOrTab.executor": "Run",
+    "JUnit.SmartUpdateSettingsProviderTest.getPluginRepositories.executor": "Run",
+    "JUnit.SnippetServiceTest.executor": "Run",
+    "JUnit.SnippetServiceTest.filterIntersectionWindow.executor": "Run",
+    "JUnit.SnippetServiceTest.getEndLineNumberCase1.executor": "Run",
+    "JUnit.SnippetServiceTest.getRangeLineNumber.executor": "Debug",
+    "JUnit.SnippetServiceTest.getRangeLineNumberCase1.executor": "Run",
+    "JUnit.SnippetServiceTest.getWindowDataCase1.executor": "Debug",
+    "JUnit.SnippetServiceTest.getWindowDataCase2.executor": "Run",
+    "JUnit.SnippetServiceTest.getWindowDataCase3.executor": "Run",
+    "JUnit.SnippetServiceTest.getWindowDataCase4.executor": "Run",
+    "JUnit.SnippetServiceTest.sortByAccessTime.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.CodyAccountHistoryMigration": "true",
+    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
+    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "515",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "liberica-11",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/didi/IdeaProjects/git-commit-message-helper/src/main/java/com/lancewu602",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33872598",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.22606924",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/lancewu602" />
+      <recent name="$PROJECT_DIR$/src/main/resources/icons" />
+      <recent name="$PROJECT_DIR$/agent/webviews" />
+      <recent name="$PROJECT_DIR$/agent" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources/icons" />
+      <recent name="$PROJECT_DIR$/agent" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.xiaojukeji.ep.setting" />
+      <recent name="com.example.settings" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.xiaojukeji.ep.completions" />
+      <recent name="com.xiaojukeji.ep.editor" />
+      <recent name="com.xiaojukeji.ep.service" />
+      <recent name="com.xiaojukeji.ep.service.handler" />
+      <recent name="com.xiaojukeji.ep.util" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.listener" />
+      <recent name="com.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lancewu602" />
+      <recent name="com.xiaojukeji.ep.lsp.commands" />
+      <recent name="com.xiaojukeji.ep.action" />
+      <recent name="com.xiaojukeji.ep.bean.chat" />
+      <recent name="com.xiaojukeji.ep.bean.chat.command" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Run Plugin">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lancewu602.Hello" />
+      <module name="git-commit-message-helper.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smartcoder-intellij [sc-agent-clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sc-agent-clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="smartcoder-intellij [sc-agent-download]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sc-agent-download" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="smartcoder-intellij [sc-plugin-package]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sc-plugin-package" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CompletionSplitterTest.splitNextWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartcoder-intellij.test" />
+      <option name="PACKAGE_NAME" value="com.xiaojukeji.ep.completions" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojukeji.ep.completions.CompletionSplitterTest" />
+      <option name="METHOD_NAME" value="splitNextWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="Gradle.Run Plugin" />
+      <item itemvalue="Gradle.Run Verifications" />
+      <item itemvalue="Gradle.smartcoder-intellij [sc-agent-clean]" />
+      <item itemvalue="Gradle.smartcoder-intellij [sc-agent-download]" />
+      <item itemvalue="Gradle.smartcoder-intellij [sc-plugin-package]" />
+      <item itemvalue="JUnit.CompletionSplitterTest.splitNextWord" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="JUnit.CompletionSplitterTest.splitNextWord" />
+        <item itemvalue="Gradle.smartcoder-intellij [sc-plugin-package]" />
+        <item itemvalue="Gradle.smartcoder-intellij [sc-agent-download]" />
+        <item itemvalue="Gradle.smartcoder-intellij [sc-agent-clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60367c7d-0767-4466-91d1-0cc8d5ba26d5" name="Changes" comment="update version" />
+      <created>1708996374545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708996374545</updated>
+      <workItem from="1708996375462" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.jetbrains:ideaIC" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="44f8e35c-2400-43fa-9c04-70f6d59332b9" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="44f8e35c-2400-43fa-9c04-70f6d59332b9">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="release241+" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feat(agent): update to 1.2.0-alpha.1" />
+    <MESSAGE value="feat(version): update to 1.2.0-alpha.1" />
+    <MESSAGE value="feat(test): 删除无效的单元测试类" />
+    <MESSAGE value="fix(lsp): 修复事件中读文件报错的问题" />
+    <MESSAGE value="feat(metrics): 错误日志埋点上报" />
+    <MESSAGE value="feat(agent): update to 1.2.0-beta.2" />
+    <MESSAGE value="feat(README): 修改下载地址211+" />
+    <MESSAGE value="feat(README): 修改下载地址241+" />
+    <MESSAGE value="feat(README): 修改下载地址221+" />
+    <MESSAGE value="feat(README): 修改下载地址211+" />
+    <MESSAGE value="feat(sdk): 修改使用了过时的Jetbrains SDK Api" />
+    <MESSAGE value="feat(cr): 增加分支release241+" />
+    <MESSAGE value="feat(settings): 修改配置页面" />
+    <MESSAGE value="feat(chat): chat对话输入框上面显示当前正在打开的文件" />
+    <MESSAGE value="feat(chat): chat对话输入框上面显示当前正在打开的文件 兼容低版本 api" />
+    <MESSAGE value="feat(chat): chat输入框上方根据文件的语言展示对应的图标" />
+    <MESSAGE value="feat(version): update version&#10;plugin: 1.2.0&#10;agent: 1.2.0" />
+    <MESSAGE value="feat(CHANGELOG): 1.2.0" />
+    <MESSAGE value="feat(CHANGELOG): 1.2.0&#10;&#10;(cherry picked from commit a2ff4d4900b79c6e9c603e267d2796c4c3ab967e)" />
+    <MESSAGE value="tmp" />
+    <MESSAGE value="code diff" />
+    <MESSAGE value="feat(build): 去掉最高版本限制" />
+    <MESSAGE value="feat(chat): 修改创建新会话的逻辑，支持卡死也能开启新会话" />
+    <MESSAGE value="feat(cr): 修改CR配置" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/codeInsight/completion/DefaultCompletionContributor.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/openapi/editor/actionSystem/EditorActionHandler.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/codeInsight/hint/NextParameterAfterCompletionHandler.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/codeInsight/template/impl/actions/NextVariableAction.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/openapi/editor/actionSystem/DynamicEditorActionHandler.java</url>
+          <line>87</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/openapi/editor/actionSystem/DynamicEditorActionHandler.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.1.1/d152a0f79f182f6415fa1ad13e70e6b09399d7bd/ideaIC-2021.1.1-sources.jar!/com/intellij/codeInsight/editorActions/BraceOrQuoteOutAction.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1/9f5651726c521d49f4b66894b3a3408b734199ac/ideaIC-2024.1-sources.jar!/org/cef/browser/CefBrowserWr.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="smartcoder-intellij" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:///Users/didi/IdeaProjects/smartcoder-intellij}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
