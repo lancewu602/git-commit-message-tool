@@ -76,7 +76,7 @@
               <text resource-bundle="messages/plugin" key="label.long-description"/>
             </properties>
           </component>
-          <component id="2c8b9" class="javax.swing.JTextArea" binding="longDescriptionTextArea">
+          <component id="2c8b9" class="com.intellij.ui.EditorTextField" binding="longDescriptionTextArea">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="50"/>
@@ -95,7 +95,7 @@
               <text resource-bundle="messages/plugin" key="label.break-changes"/>
             </properties>
           </component>
-          <component id="d61c6" class="javax.swing.JTextArea" binding="breakChangeTextArea">
+          <component id="d61c6" class="com.intellij.ui.EditorTextField" binding="breakChangeTextArea">
             <constraints>
               <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="50"/>

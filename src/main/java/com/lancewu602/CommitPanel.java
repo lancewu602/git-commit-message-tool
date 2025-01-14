@@ -1,6 +1,7 @@
 package com.lancewu602;
 
 import com.intellij.ui.CollectionComboBoxModel;
+import com.intellij.ui.EditorTextField;
 
 import javax.swing.*;
 import java.util.Arrays;
@@ -16,8 +17,8 @@ public class CommitPanel {
     private JComboBox<String> typeOfChangeComboBox;
     private JTextField scopeOfThisChangeText;
     private JTextField shortDescriptionText;
-    private JTextArea longDescriptionTextArea;
-    private JTextArea breakChangeTextArea;
+    private EditorTextField longDescriptionTextArea;
+    private EditorTextField breakChangeTextArea;
     private JTextField closedIssuesText;
     private JCheckBox skipCiCheckBox;
 
@@ -27,6 +28,9 @@ public class CommitPanel {
                 .map(ChangeType::toString)
                 .collect(Collectors.toList())
         ));
+
+        longDescriptionTextArea.setBackground(scopeOfThisChangeText.getBackground());
+        breakChangeTextArea.setBackground(scopeOfThisChangeText.getBackground());
 
         if (commitMessage != null) {
             restoreValuesFromParsedCommitMessage(commitMessage);
