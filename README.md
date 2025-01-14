@@ -1,4 +1,4 @@
-# Git Commit Message Tool
+# Git Helper
 
 <!-- Plugin description -->
 

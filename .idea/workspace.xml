@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60367c7d-0767-4466-91d1-0cc8d5ba26d5" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="60367c7d-0767-4466-91d1-0cc8d5ba26d5" name="Changes" comment="update 0.0.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -437,6 +435,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.git-commit-message-tool [buildPlugin]" />
+        <item itemvalue="Gradle.git-commit-message-tool [buildPlugin]" />
         <item itemvalue="JUnit.CompletionSplitterTest.splitNextWord" />
         <item itemvalue="Application.Hello" />
       </list>
@@ -531,7 +530,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(agent): update to 1.2.0-alpha.1" />
     <MESSAGE value="feat(version): update to 1.2.0-alpha.1" />
     <MESSAGE value="feat(test): 删除无效的单元测试类" />
     <MESSAGE value="fix(lsp): 修复事件中读文件报错的问题" />
@@ -556,7 +554,8 @@
     <MESSAGE value="feat(chat): 修改创建新会话的逻辑，支持卡死也能开启新会话" />
     <MESSAGE value="feat(cr): 修改CR配置" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="update 0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 0.0.1" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
